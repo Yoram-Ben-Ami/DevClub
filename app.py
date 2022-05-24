@@ -3,7 +3,6 @@ from flask.helpers import url_for
 from flask_pymongo import PyMongo
 from flask_cors import CORS
 from pymongo import MongoClient
-from send_favourites_movies import send_favourite_with_mail
 
 app = Flask(__name__)
 cors = CORS(app)
